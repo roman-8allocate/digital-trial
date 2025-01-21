@@ -9,10 +9,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'gray-1': '#333'
       },
     },
+    fontFamily: {
+      sans: ['Roboto', 'sans-serif']
+    },
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        sm: '600px',
+        md: '728px',
+        lg: '1170px',
+      }
+    }
   },
   plugins: [],
 } satisfies Config;
