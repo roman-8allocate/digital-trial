@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const roboto = Roboto({
     variable: '--font-roboto',
     subsets: ['latin'],
     weight: ['300', '400', '700', '900']
 });
+
+const openSans = Open_Sans({
+    variable: '--font-open-sans',
+    subsets: ['latin']
+})
 
 export const metadata: Metadata = {
   title: "Digital Project",
@@ -22,10 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} antialiased`}
+        className={`${roboto.variable} ${openSans.variable} antialiased`}
       >
         <Header />
-        {children}
+        <div className="pt-[102px]">
+            {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );

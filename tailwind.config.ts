@@ -9,11 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'gray-1': '#333'
+        'gray-1': '#333',
+        'gray-2': '#2c2c2c',
+        'gray-3': '#C8C8C8'
       },
     },
     fontFamily: {
-      sans: ['Roboto', 'sans-serif']
+      sans: ['Roboto', 'sans-serif'],
+      'open-sans': ['Open Sans', 'sans-serif']
     },
     container: {
       center: true,
