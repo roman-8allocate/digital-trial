@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 
 import logo from '../../../public/assets/images/logo.png'
-import { NavItem } from '@/components/Header/nav-item';
+import { NavItem } from '@/components/Header/components/nav-item';
 
 const Header = () => {
     return (
