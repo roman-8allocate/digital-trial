@@ -1,7 +1,9 @@
+import SliderSection from '@/modules/home/SliderSection';
+
 export default function Home() {
   return (
-    <div>
-      Empty project
-    </div>
+    <>
+        <SliderSection />
+    </>
   );
 }

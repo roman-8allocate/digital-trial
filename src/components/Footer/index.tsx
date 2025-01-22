@@ -13,7 +13,7 @@ import Pinterest from '../../../public/assets/icons/pinterest';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-2">
+        <footer className="bg-gray-2 mt-[60px]">
             <div className="container">
                 <div className="flex justify-between pt-[58px] pb-[60px]">
                     <Link href="/">

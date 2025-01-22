@@ -6,7 +6,7 @@ import { NavItem } from '@/components/Header/components/nav-item';
 
 const Header = () => {
     return (
-        <header className="fixed w-full py-[29px] bg-white">
+        <header className="fixed w-full py-[29px] bg-white z-10">
             <div className="container flex justify-between items-center gap-1">
                 <Link href="/">
                     <Image
