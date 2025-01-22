@@ -15,7 +15,8 @@ export default {
         'gray-4': '#BDBDBD',
         'gray-5': '#F2F2F2',
         'gray-6': '#F9F9F9',
-        'gray-7': '#E0E0E0'
+        'gray-7': '#E0E0E0',
+        'gray-8': '#FBFBFB'
       },
       flex: {
         'slide': '0 0 100%'

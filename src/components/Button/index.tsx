@@ -22,7 +22,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps> (
         }
 
         return (
-            <button type="button" className={`text-xs tracking-[0.2em] leading-3 uppercase duration-300 ${getVariantStyles()} ${className}`} {...props} ref={ref}>{children}</button>
+            <button type="button" className={`flex items-center gap-[13px] text-xs tracking-[0.2em] leading-3 uppercase duration-300 ${getVariantStyles()} ${className}`} {...props} ref={ref}>{children}</button>
         )
     }
 )

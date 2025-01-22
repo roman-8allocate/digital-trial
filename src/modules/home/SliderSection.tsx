@@ -57,7 +57,7 @@ const SliderSection = () => {
                                             alt="slide"
                                         />
                                         <Button variant="light"
-                                                className="flex items-center gap-[13px] mt-[-71px] relative">
+                                                className="mt-[-71px] relative">
                                             View Project
                                             <ArrowRight/>
                                         </Button>
