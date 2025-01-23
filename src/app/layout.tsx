@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Open_Sans } from "next/font/google";
+import { Roboto, Open_Sans, Gothic_A1 } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -15,6 +15,12 @@ const openSans = Open_Sans({
     subsets: ['latin']
 })
 
+const gothic = Gothic_A1({
+    variable: '--font-gothic',
+    subsets: ['latin'],
+    weight: ['400']
+})
+
 export const metadata: Metadata = {
   title: "Digital Project",
   description: "Digital project, trial",
@@ -28,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} ${openSans.variable} antialiased`}
+        className={`${roboto.variable} ${openSans.variable} ${gothic.variable} antialiased`}
       >
         <Header />
         <div className="pt-[102px]">

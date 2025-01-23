@@ -24,15 +24,16 @@ export default {
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],
-      'open-sans': ['Open Sans', 'sans-serif']
+      'open-sans': ['Open Sans', 'sans-serif'],
+      'gothic': ['Gothic A1', 'sans-serif']
     },
     container: {
       center: true,
-      padding: '1rem',
+      padding: '15px',
       screens: {
         sm: '600px',
         md: '728px',
-        lg: '1170px',
+        lg: '1200px',
       }
     }
   },
